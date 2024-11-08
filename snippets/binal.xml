@@ -37,12 +37,6 @@
   <project path="packages/apps/Updater" name="BinalOS/android_packages_apps_Updater" remote="binal" />
   <project path="packages/apps/WallpaperPicker2" name="BinalOS/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="binal" />
   <project path="packages/inputmethods/LatinIME" name="BinalOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="binal" />
-  <project path="packages/modules/Bluetooth" name="BinalOS/android_packages_modules_Bluetooth" groups="pdk" remote="binal" />
-  <project path="packages/modules/Connectivity" name="BinalOS/android_packages_modules_Connectivity" groups="pdk-cw-fs,pdk-fs" remote="binal" />
-  <project path="packages/modules/Wifi" name="BinalOS/android_packages_modules_Wifi" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="binal" />
-  <project path="packages/services/DeviceAsWebcam" name="BinalOS/android_packages_services_DeviceAsWebcam" groups="pdk-cw-fs,pdk-fs" remote="binal" />
-  <project path="packages/services/Telecomm" name="BinalOS/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="binal" />
-  <project path="packages/services/Telephony" name="BinalOS/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="binal" />
 
   <project path="vendor/lineage" name="BinalOS/android_vendor_lineage" remote="binal" />
 
