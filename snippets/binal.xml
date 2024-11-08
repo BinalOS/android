@@ -10,7 +10,7 @@
   <!-- BinalOS additions -->
   <project path="android" name="BinalOS/android" remote="binal" />
 
-  <project path="build/make" name="BinalOS/android_build" remote="binal" >
+  <project path="build/make" name="BinalOS/android_build" groups="pdk,sysui-studio" remote="binal" >
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
     <linkfile src="core" dest="build/core" />
@@ -21,22 +21,22 @@
 
   <project path="external/FadingEdgeLayout" name="BinalOS/android_external_FadingEdgeLayout" remote="binal" />
 
-  <project path="frameworks/base" name="BinalOS/android_frameworks_base" remote="binal" />
-  <project path="frameworks/libs/systemui" name="BinalOS/android_frameworks_libs_systemui" remote="binal" />
+  <project path="frameworks/base" name="BinalOS/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="binal" />
+  <project path="frameworks/libs/systemui" name="BinalOS/android_frameworks_libs_systemui" groups="pdk-cw-fs,pdk-fs,sysui-studio" remote="binal" />
 
   <project path="packages/apps/Backgrounds" name="BinalOS/android_packages_apps_Backgrounds" remote="binal" />
-  <project path="packages/apps/Contacts" name="BinalOS/android_packages_apps_Contacts" remote="binal" />
-  <project path="packages/apps/Dialer" name="BinalOS/android_packages_apps_Dialer" remote="binal" />
-  <project path="packages/apps/DocumentsUI" name="BinalOS/android_packages_apps_DocumentsUI" remote="binal" />
-  <project path="packages/apps/Launcher3" name="BinalOS/android_packages_apps_Launcher3" remote="binal" />
+  <project path="packages/apps/Contacts" name="BinalOS/android_packages_apps_Contacts" groups="pdk-fs" remote="binal" />
+  <project path="packages/apps/Dialer" name="BinalOS/android_packages_apps_Dialer" groups="pdk-fs" remote="binal" />
+  <project path="packages/apps/DocumentsUI" name="BinalOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="binal" />
+  <project path="packages/apps/Launcher3" name="BinalOS/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="binal" />
   <project path="packages/apps/LineageParts" name="BinalOS/android_packages_apps_LineageParts" remote="binal" />
-  <project path="packages/apps/Messaging" name="BinalOS/android_packages_apps_Messaging" remote="binal" />
-  <project path="packages/apps/Settings" name="BinalOS/android_packages_apps_Settings" remote="binal" />
+  <project path="packages/apps/Messaging" name="BinalOS/android_packages_apps_Messaging" groups="pdk-fs" remote="binal" />
+  <project path="packages/apps/Settings" name="BinalOS/android_packages_apps_Settings" groups="pdk-fs" remote="binal" />
   <project path="packages/apps/SetupWizard" name="BinalOS/android_packages_apps_SetupWizard" remote="binal" />
-  <project path="packages/apps/ThemePicker" name="BinalOS/android_packages_apps_ThemePicker" remote="binal" />
+  <project path="packages/apps/ThemePicker" name="BinalOS/android_packages_apps_ThemePicker" groups="pdk-fs,sysui-studio" remote="binal" />
   <project path="packages/apps/Updater" name="BinalOS/android_packages_apps_Updater" remote="binal" />
-  <project path="packages/apps/WallpaperPicker2" name="BinalOS/android_packages_apps_WallpaperPicker2" remote="binal" />
-  <project path="packages/inputmethods/LatinIME" name="BinalOS/android_packages_inputmethods_LatinIME" remote="binal" />
+  <project path="packages/apps/WallpaperPicker2" name="BinalOS/android_packages_apps_WallpaperPicker2" groups="pdk-fs,sysui-studio" remote="binal" />
+  <project path="packages/inputmethods/LatinIME" name="BinalOS/android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="binal" />
 
   <project path="vendor/lineage" name="BinalOS/android_vendor_lineage" remote="binal" />
 
