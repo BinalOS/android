@@ -28,7 +28,7 @@
   <project path="packages/apps/Contacts" name="BinalOS/android_packages_apps_Contacts" groups="pdk-fs" remote="binal" />
   <project path="packages/apps/Dialer" name="BinalOS/android_packages_apps_Dialer" groups="pdk-fs" remote="binal" />
   <project path="packages/apps/DocumentsUI" name="BinalOS/android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="binal" />
-  <project path="packages/apps/Launcher3" name="BinalOS/android_packages_apps_Launcher3" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="binal" />
+  <project path="packages/apps/Trebuchet" name="BinalOS/android_packages_apps_Trebuchet" groups="pdk-fs,sysui-studio,pdk-cw-tvc" remote="binal" />
   <project path="packages/apps/LineageParts" name="BinalOS/android_packages_apps_LineageParts" remote="binal" />
   <project path="packages/apps/Messaging" name="BinalOS/android_packages_apps_Messaging" groups="pdk-fs" remote="binal" />
   <project path="packages/apps/Settings" name="BinalOS/android_packages_apps_Settings" groups="pdk-fs" remote="binal" />
